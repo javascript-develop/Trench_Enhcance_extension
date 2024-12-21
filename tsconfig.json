@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "ESNext",
+      "jsx": "react",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "outDir": "./dist",
+      "moduleResolution": "node"
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx", "src/popup/Sections/DomainSection.tsx"],
+    "exclude": ["node_modules"]
+  }
+  
